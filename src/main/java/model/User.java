@@ -2,18 +2,18 @@ package model;
 
 public class User {
 
+    private String userName;
     private String email;
-    private String name;
 
-    public String getName() {
-        return name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
-
-    public void setName(String name) {
-        this.name = name;
+    public String getUserName() {
+        return userName;
     }
 
     public String getEmail() {
+
         return email;
     }
 
